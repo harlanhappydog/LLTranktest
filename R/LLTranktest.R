@@ -2,11 +2,11 @@
 #'
 #' @description LLT rank-based non-parameteric test
 #'
-#' @param formula, id=NULL, data, B=118
+#' @param formula, id=NULL, data, B
 #'
 #' @return data.frame
 #'
-#' @examples LLTranktest(Y~X, id=mydata$ID, data=mydata)
+#' @examples LLTranktest(UNL_mm ~ month + treat_group, id=toenail$ID, data=toenail, B=21)
 #'
 #' @export LLTranktest
 

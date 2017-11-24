@@ -7,7 +7,7 @@
 LLTranktest(formula, id = NULL, data, B = 200)
 }
 \arguments{
-\item{formula, }{id=NULL, data, B=118}
+\item{formula, }{id=NULL, data, B}
 }
 \value{
 data.frame
@@ -16,6 +16,6 @@ data.frame
 LLT rank-based non-parameteric test
 }
 \examples{
-LLTranktest(Y~X, id=mydata$ID, data=mydata)
+LLTranktest(UNL_mm ~ month + treat_group, id=toenail$ID, data=toenail, B=21)
 
 }
