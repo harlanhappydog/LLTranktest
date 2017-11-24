@@ -1,0 +1,11 @@
+Package: LLTranktest
+Type: Package
+Title: LLTranktest
+Version: 0.1
+Date: 2017-08-10
+Author: Harlan Campbell <harlan.campbell@stat.ubc.ca>
+Maintainer: Harlan Campbell <harlan.campbell@stat.ubc.ca>
+Description: LLTranktest
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 6.0.1
